@@ -31,7 +31,7 @@
 
 ### Schema Fritzing
 
-<img src="imagini/schema_fritzing.JPG" width="1000" height="1000">
+<img src="imagini/schema_fritzing.JPG" width="750" height="750">
 
 
 
