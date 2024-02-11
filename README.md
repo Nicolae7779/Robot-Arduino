@@ -25,7 +25,7 @@ Robotul conține următoarele componente hardware:
 ## 4x AAA(1.5V) și 1x D(9V)
 
 <img src="imagini/4AAA.jpg" width="600" height="450">
-<img src="imagini/D.jpg" width="600" height="450">
+<img src="imagini/D.jpg" width="500" height="500">
 
 
 
