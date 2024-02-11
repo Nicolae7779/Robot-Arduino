@@ -29,3 +29,9 @@
 
 
 
+### Schema Fritzing
+
+<img src="imagini/D.jpg" width="1000" height="1000">
+
+
+
