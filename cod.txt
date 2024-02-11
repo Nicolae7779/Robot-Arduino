@@ -1,0 +1,90 @@
+
+int buttonPin = 2;
+int redPin = 9;
+int greenPin = 10;
+int bluePin = 11;
+
+int redPin2 = 3;
+int greenPin2 = 5;
+int bluePin2 = 6;
+
+float temp;
+float temp2;
+
+volatile int buttonState = 0;
+
+void setup()
+{
+  pinMode(redPin, OUTPUT);
+  pinMode(greenPin, OUTPUT);
+  pinMode(bluePin, OUTPUT);
+  
+  pinMode(redPin2, OUTPUT);
+  pinMode(greenPin2, OUTPUT);
+  pinMode(bluePin2, OUTPUT);
+
+  attachInterrupt(digitalPinToInterrupt(buttonPin), pin_ISR, CHANGE);
+  Serial.begin(9600);
+}
+
+void pin_ISR() {
+  buttonState = !buttonState;
+}
+
+
+void loop()
+{
+  temp = analogRead(A0);
+  temp = temp * 0.48828125;
+  Serial.print("Temperatura interior:  ");
+  Serial.print(temp);
+  Serial.print("*C");
+
+  
+  temp2 = analogRead(A1);
+  temp2 = temp2 * 0.48828125;
+  Serial.print("                Temperatura exterior:  ");
+  Serial.print(temp2);
+  Serial.print("*C");
+  Serial.println();
+  delay(1000);
+  
+  
+  if( temp >= 50)
+  {
+     digitalWrite(redPin, buttonState);
+     digitalWrite(bluePin, LOW);
+     digitalWrite(greenPin, LOW);
+  }
+  else if( temp <= 20)
+  {
+     digitalWrite(bluePin, buttonState);
+     digitalWrite(redPin, LOW);
+     digitalWrite(greenPin, LOW);
+  }
+  else if( temp > 20 && temp < 50)
+  {
+     digitalWrite(greenPin, buttonState);
+     digitalWrite(redPin, LOW);
+     digitalWrite(bluePin, LOW);
+  } 
+  
+   if( temp2 >= 50)
+  {
+     digitalWrite(redPin2, buttonState);
+     digitalWrite(bluePin2, LOW);
+     digitalWrite(greenPin2, LOW);
+  }
+  else if( temp2 <= 20)
+  {
+     digitalWrite(bluePin2, buttonState);
+     digitalWrite(redPin2, LOW);
+     digitalWrite(greenPin2, LOW);
+  }
+  else if( temp2 > 20 && temp < 50)
+  {
+     digitalWrite(greenPin2, buttonState);
+     digitalWrite(redPin2, LOW);
+     digitalWrite(bluePin2, LOW);
+  }  
+}
