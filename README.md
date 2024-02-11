@@ -19,7 +19,7 @@ Robotul conține următoarele componente hardware:
 
 ## DC motor 3V - 6V
 
-![DCMotor](imagini/DCMotor.jpg)
+![DCMotor](imagini/DCmotor.jpg)
 
 
 ## 4x AAA(1.5V) și 1x D(9V)
