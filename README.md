@@ -1,6 +1,6 @@
 # Robot-Arduino
 
-##Robotul conține următoarele componente hardware:
+## Robotul conține următoarele componente hardware:
 
 ### Arduino Uno
 
