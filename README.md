@@ -27,6 +27,6 @@ Robotul conține următoarele componente hardware:
 ![Baterii](imagini/4AAA.jpg)
 ![Baterii](imagini/D.jpg)
 
-<img src="imagini/D.jpg" width="100" height="100">
+<img src="imagini/D.jpg" width="500" height="500">
 
 
