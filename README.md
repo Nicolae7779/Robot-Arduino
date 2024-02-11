@@ -4,29 +4,28 @@ Robotul conține următoarele componente hardware:
 
 ## Arduino Uno
 
-![Placa Arduino Uno](imagini/arduino-uno2.png)
+<img src="imagini/arduino-uno2.png" width="450" height="600">
 
 
 ## L298N Motor Driver
 
-![Motor Driver](imagini/L298N-Module-Pinout.jpg)
+<img src="imagini/L298N-Module-Pinout.jpg" width="450" height="600">
 
 
 ## HC-05 Bluetooth Module 
 
-![Bloetooth Module](imagini/HC-051.jpg)
+<img src="imagini/HC-051.jpg" width="450" height="600">
 
 
 ## DC motor 3V - 6V
 
-![DCMotor](imagini/DCmotor.jpg)
+<img src="imagini/DCmotor.jpg" width="450" height="600">
 
 
 ## 4x AAA(1.5V) și 1x D(9V)
 
-![Baterii](imagini/4AAA.jpg)
-![Baterii](imagini/D.jpg)
+<img src="imagini/4AAA.jpg" width="450" height="600">
+<img src="imagini/D.jpg" width="450" height="600">
 
-<img src="imagini/D.jpg" width="500" height="500">
 
 
