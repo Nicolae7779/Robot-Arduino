@@ -9,7 +9,7 @@ Robotul conține următoarele componente hardware:
 
 ## L298N Motor Driver
 
-![Motor Driver](imagini/L298-Module-Pinout.jpg)
+![Motor Driver](imagini/L298N-Module-Pinout.jpg)
 
 
 ## HC-05 Bluetooth Module 
