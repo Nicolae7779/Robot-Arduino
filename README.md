@@ -27,8 +27,8 @@
 
 ### 4x AAA(1.5V) și 1x D(9V)
 
-<img src="imagini/4AAA.jpg" width="60" height="45">
-<img src="imagini/D.jpg" width="60" height="45">
+<img src="imagini/4AAA.jpg" width="120" height="90">
+<img src="imagini/D.jpg" width="120" height="90">
 
 
 
