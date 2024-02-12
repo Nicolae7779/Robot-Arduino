@@ -1,5 +1,8 @@
 # Robot-Arduino
 
+<img src="imagini/robot_arduino.JPG" width="750" height="750"> 
+
+
 ## Robotul conține următoarele componente hardware:
 
 ### Arduino Uno
