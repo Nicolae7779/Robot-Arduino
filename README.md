@@ -36,5 +36,8 @@
 
 <img src="imagini/schema_fritzing.JPG" width="750" height="750">
 
+### Aplicație mobilă
+
+<img src="imagini/Mobile_App.png"> 
 
 
